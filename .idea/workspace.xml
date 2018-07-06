@@ -1,22 +1,197 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f42cba6a-7d77-4925-a402-9db23cd6f6e4" name="Default Changelist" comment="" />
+    <list default="true" id="f42cba6a-7d77-4925-a402-9db23cd6f6e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landing/src/Controller/BackendController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landing/src/Controller/BaseController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landing/templates/backend/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landing/templates/backend/dashboard.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landing/templates/backend/login.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landing/templates/base/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/landing/templates/base/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/palini-landing.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/palini-landing.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/.env.dist" beforeDir="false" afterPath="$PROJECT_DIR$/landing/.env.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/landing/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/landing/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/landing/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/landing/symfony.lock" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/landing/composer.json</pharConfigPath>
+    <executablePath>composer</executablePath>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1379699856">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.18" value="2" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="db" value="1" />
+          <entry key="dist" value="1" />
+          <entry key="env" value="1" />
+          <entry key="json" value="3" />
+          <entry key="php" value="10" />
+          <entry key="twig" value="5" />
+          <entry key="yaml" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="3" />
+          <entry key="PHP" value="10" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="SQL" value="1" />
+          <entry key="Twig" value="5" />
+          <entry key="YAML" value="20" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="env" value="2" />
+          <entry key="json" value="8" />
+          <entry key="php" value="690" />
+          <entry key="twig" value="589" />
+          <entry key="txt" value="11" />
+          <entry key="yaml" value="278" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="8" />
+          <entry key="PHP" value="690" />
+          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="Twig" value="589" />
+          <entry key="YAML" value="278" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.composer.command.options" />
+      <usages-collector id="statistics.php.rename.constructor" />
+      <usages-collector id="statistics.php.composer.actions">
+        <counts>
+          <entry key="install_from_ComposerEditorNotificationPanel" value="1" />
+          <entry key="updateAll_from_ComposerEditorNotificationPanel" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.php.new.class">
+        <counts>
+          <entry key="PHP.Class.type" value="1" />
         </counts>
       </usages-collector>
     </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/landing/config/bundles.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/landing/src/Entity/Items.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/landing/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/landing/.env.dist">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/landing/config/packages/framework.yaml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/landing/config/packages/routing.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/landing/config/packages/twig.yaml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/landing/config/packages/prod/doctrine.yaml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/landing/config/services.yaml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/landing/config/routes.yaml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/landing/config/packages/maker.yaml" />
+        <option value="$PROJECT_DIR$/landing/src/Controller/BaseController.php" />
+        <option value="$PROJECT_DIR$/landing/templates/base/base.html.twig" />
+        <option value="$PROJECT_DIR$/landing/templates/backend/base.html.twig" />
+        <option value="$PROJECT_DIR$/landing/templates/backend/dashboard.html.twig" />
+        <option value="$PROJECT_DIR$/landing/templates/base/index.html.twig" />
+        <option value="$PROJECT_DIR$/landing/templates/backend/login.html.twig" />
+        <option value="$PROJECT_DIR$/landing/src/Controller/BackendController.php" />
+        <option value="$PROJECT_DIR$/landing/config/packages/routing.yaml" />
+        <option value="$PROJECT_DIR$/landing/config/packages/dev/routing.yaml" />
+        <option value="$PROJECT_DIR$/landing/composer.json" />
+        <option value="$PROJECT_DIR$/landing/config/packages/dev/web_profiler.yaml" />
+        <option value="$PROJECT_DIR$/landing/config/packages/secutity.yaml" />
+        <option value="$PROJECT_DIR$/landing/config/packages/security.yaml" />
+        <option value="$PROJECT_DIR$/landing/config/packages/doctrine.yaml" />
+        <option value="$PROJECT_DIR$/landing/.env" />
+        <option value="$PROJECT_DIR$/landing/config/bundles.php" />
+        <option value="$PROJECT_DIR$/landing/src/Entity/Items.php" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -24,11 +199,74 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/landing/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/landing/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/landing/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/landing/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/landing/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/landing/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/landing/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/landing/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/landing/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/landing/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/landing/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/landing/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/landing/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/landing/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/landing/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/landing/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/landing/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/landing/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/landing/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/landing/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/landing/vendor/ocramius/package-versions" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/landing/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/orm-pack" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/landing/vendor/composer" />
+      <path value="$PROJECT_DIR$/landing/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/landing/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/profiler-pack" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/inflector" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/security" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/landing/vendor/symfony/property-access" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="991" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -46,6 +284,86 @@
               <item name="palini-landing" type="b2602c69:ProjectViewProjectNode" />
               <item name="palini-landing" type="462c0819:PsiDirectoryNode" />
               <item name="landing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="palini-landing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="palini-landing" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="palini-landing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="palini-landing" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="palini-landing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="palini-landing" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="packages" type="462c0819:PsiDirectoryNode" />
+              <item name="prod" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="palini-landing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="palini-landing" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="palini-landing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="palini-landing" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="palini-landing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="palini-landing" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="palini-landing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="palini-landing" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="palini-landing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="palini-landing" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="palini-landing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="palini-landing" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="palini-landing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="palini-landing" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="palini-landing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="palini-landing" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="palini-landing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="palini-landing" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
+              <item name="var" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -80,36 +398,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530476767086</updated>
-      <workItem from="1530476770946" duration="502000" />
+      <workItem from="1530476770946" duration="6210000" />
+      <workItem from="1530807933773" duration="3212000" />
+      <workItem from="1530839273842" duration="994000" />
+      <workItem from="1530840304474" duration="357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="502000" />
+    <option name="totallyTimeSpent" value="10773000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="991" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="991" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32925472" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.32925472" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Remote Host" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4993895" visible="true" weight="0.32925472" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50061053" side_tool="true" weight="0.32925472" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,5 +439,158 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/landing/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/config/packages/maker.yaml" />
+    <entry file="file://$PROJECT_DIR$/landing/templates/base/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="128" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/templates/backend/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/templates/backend/dashboard.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/templates/base/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/src/Controller/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/templates/backend/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/config/packages/secutity.yaml" />
+    <entry file="file://$PROJECT_DIR$/landing/src/Kernel.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/config/packages/dev/routing.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/config/packages/dev/web_profiler.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/src/Controller/BackendController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+          <folding>
+            <element signature="e#36#93#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/config/packages/doctrine.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/var/app.db">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/config/packages/security.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/.env.dist">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/config/packages/framework.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/config/packages/routing.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/config/packages/twig.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/config/packages/prod/doctrine.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/config/services.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/config/routes.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/config/bundles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="69" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/landing/src/Entity/Items.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
