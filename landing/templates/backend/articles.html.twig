@@ -1,0 +1,64 @@
+{% extends 'backend/base.html.twig' %}
+{% block body %}
+
+    {% embed 'backend/articles.new.html.twig' %}{% endembed %}
+    <script>
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <div class="container">
+        <div class="card mt-4">
+            <div class="card-header">
+                <h2 class="float-left">Lista</h2>
+                <span class="float-right">
+                    <a href="" class="btn btn-success btn-lg" data-toggle="modal" data-target="#addModal">+ Nuovo</a>
+                </span>
+            </div>
+            <div class="card-body">
+                <table class="table table-hover mt-4">
+                    <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Titolo</th>
+                        <th scope="col">Link</th>
+                        <th scope="col">Immagine</th>
+                        <th scope="col">Scadenza</th>
+                        <th scope="col" class="pull-right"></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for item in items %}
+
+                        {% embed 'backend/articles.delete.html.twig' %}{% endembed %}
+                        <tr>
+                            <th scope="row">{{ item.id }}</th>
+                            <th>{{ item.title }}</th>
+                            <th>{{ item.link }}</th>
+                            <th><a href="{{ item.imagePath }}" rel="popover">Immagine</a></th>
+                            <th>{{ item.expiration|date("d-m-Y") }}</th>
+                            <th class="pull-right text-right">
+                                <a href="" class="btn btn-primary btn-sm">Vedi</a>
+                                <a href="" class="btn btn-secondary btn-sm">Modifica</a>
+                                <!-- TODO: Alert conferma Eliminazione -->
+                                <a href="" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#deleteModal-{{ item.id }}">Elimina</a>
+                            </th>
+                        </tr>
+                        <script>
+                            $('a[rel=popover]').popover({
+                                html: true,
+                                trigger: 'hover',
+                                placement: 'bottom',
+                                content: function(){return '<img src="{{ item.imagePath }}" />';}
+                            });
+                        </script>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+{% endblock %}

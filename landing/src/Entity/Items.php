@@ -41,6 +41,16 @@ class Items
      */
     private $expiration;
 
+    /**
+     * @ORM\Column(type="datetime")
+     */
+    private $dateAdded;
+
+    /**
+     * @ORM\Column(type="string", length=255)
+     */
+    private $slug;
+
     public function getId()
     {
         return $this->id;
@@ -102,6 +112,30 @@ class Items
     public function setExpiration(\DateTimeInterface $expiration): self
     {
         $this->expiration = $expiration;
+
+        return $this;
+    }
+
+    public function getDateAdded(): ?\DateTimeInterface
+    {
+        return $this->dateAdded;
+    }
+
+    public function setDateAdded(\DateTimeInterface $dateAdded): self
+    {
+        $this->dateAdded = $dateAdded;
+
+        return $this;
+    }
+
+    public function getSlug(): ?string
+    {
+        return $this->slug;
+    }
+
+    public function setSlug(string $slug): self
+    {
+        $this->slug = $slug;
 
         return $this;
     }
