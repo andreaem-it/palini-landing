@@ -71,5 +71,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="jquery-3.3.1" level="application" />
     <orderEntry type="library" name="modernizr" level="application" />
+    <orderEntry type="library" name="jquery.countdown" level="application" />
   </component>
 </module>

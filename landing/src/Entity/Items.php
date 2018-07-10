@@ -51,6 +51,16 @@ class Items
      */
     private $slug;
 
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $priceStart;
+
+    /**
+     * @ORM\Column(type="float")
+     */
+    private $priceOffer;
+
     public function getId()
     {
         return $this->id;
@@ -136,6 +146,30 @@ class Items
     public function setSlug(string $slug): self
     {
         $this->slug = $slug;
+
+        return $this;
+    }
+
+    public function getPriceStart(): ?float
+    {
+        return $this->priceStart;
+    }
+
+    public function setPriceStart(float $priceStart): self
+    {
+        $this->priceStart = $priceStart;
+
+        return $this;
+    }
+
+    public function getPriceOffer(): ?float
+    {
+        return $this->priceOffer;
+    }
+
+    public function setPriceOffer(float $priceOffer): self
+    {
+        $this->priceOffer = $priceOffer;
 
         return $this;
     }
